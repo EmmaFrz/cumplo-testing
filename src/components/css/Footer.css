@@ -1,0 +1,14 @@
+.footer-container{
+    background-color: #599CE7;
+    position: fixed;
+    bottom:0;
+    width: 110%;
+    margin-left: -10%;
+    color: whitesmoke;
+}
+
+@media only screen and (max-width: 600px){
+    .footer-container{
+        width: 105%;
+    }
+}

@@ -1,0 +1,5 @@
+.searchbar-grid{
+    display: grid;
+    grid-template-columns: 40% 40% 20%;
+    gap: 5px;
+}

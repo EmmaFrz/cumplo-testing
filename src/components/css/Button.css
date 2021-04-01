@@ -1,0 +1,20 @@
+.button-style {
+    position: relative;
+    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #599CE7;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius:  8px;
+    box-shadow: inset 0 4px 8px 0 rgba(0,0,0,0.05);
+    color: white;
+    cursor: pointer;
+    font-size: inherit;
+    transition: 195ms box-shadow ease-in;
+}
+
+.button-style:disabled{
+  background-color: #ada8a8;
+}

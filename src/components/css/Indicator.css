@@ -1,0 +1,18 @@
+.indicator-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.indicator-grid-unique-item{
+    grid-column: 1/4;
+}
+
+@media only screen and (max-width: 600px){
+    .indicator-grid{
+        grid-template-columns: 1fr;
+    }
+    
+    .indicator-grid-unique-item{
+        grid-column: 1/4;
+    }
+}
